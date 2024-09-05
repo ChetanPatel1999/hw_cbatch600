@@ -4,8 +4,8 @@ void main()
 {
     int a, b, c;
     printf("Addition programm....\n");
-    a = 12;
-    b = 5;
+    a = 807;
+    b = 543;
     printf("value of a = %d\n", a);
     printf("value of b = %d\n", b);
     c=a+b;

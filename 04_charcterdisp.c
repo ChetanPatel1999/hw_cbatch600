@@ -2,7 +2,7 @@
 #include<stdio.h>
 void main()
 {
-	printf("alphabet charcter value = %c\n",'A');
+	printf("alphabet charcter value =%c\n",'A');
 	printf("special charcter value = %c\n",'#');
 	printf("digit charcter value = %c\n",'5');
 }
