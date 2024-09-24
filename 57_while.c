@@ -1,13 +1,25 @@
-#include<stdio.h>
+#include <stdio.h>
 void main()
 {
- int i=1;
- while(i<=20)
- {
-    if(i%2==0)
+    int s, e;
+    printf("enter start : ");
+    scanf("%d", &s); // 3
+    printf("enter end  : ");
+    scanf("%d", &e); // 78
+    if (s > e)
     {
-        printf("%d ",i);
+        printf("plese enter start range smaller than ending range");
     }
-    i++;
- }
+    else
+    {
+        printf("even number between %d to %d : ", s, e);
+        while (s <= e)
+        {
+            if (s % 2 == 0)
+            {
+                printf("%d ", s); // 20 22 24 26
+            }
+            s++; // 22
+        }
+    }
 }
