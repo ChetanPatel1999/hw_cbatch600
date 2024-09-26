@@ -1,0 +1,2 @@
+
+ printf("odd number\n");
