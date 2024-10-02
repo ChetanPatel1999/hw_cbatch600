@@ -1,4 +1,4 @@
-//no return type no argument fuction
+//no return type ,no argument fuction
 #include <stdio.h>
 void add() 
 {
