@@ -7,7 +7,7 @@ void main()
   printf("array element are : \n");
   for(i=0;i<5;i++)//2
   {
-     printf("%d\n",a[i]);
+     printf("%d\n",a[i]);// 12 34 56 78 90
   } 
  
 }

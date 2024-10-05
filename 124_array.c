@@ -23,5 +23,8 @@ void main()
     {
         sum=sum+a[i];
     }
+    float av;
+    av=sum/(float)n;
     printf("\nsum array element : %d",sum);
+    printf("\navrage of array := %.2f",av);
 }
