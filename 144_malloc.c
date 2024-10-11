@@ -7,7 +7,7 @@ void main()
     int n;
     printf("enter size of dynamaic array : ");
     scanf("%d", &n);
-    ptr = (int *)malloc(n * sizeof(int));
+    ptr = (int *)malloc(n * sizeof(int));//20
     temp = ptr;
     printf("enter array element : ");
     for (i = 0; i < n; i++)
